@@ -3,7 +3,8 @@ echo "Installing Ruby 1.9.2 stable and making it the default Ruby ..."
   rvm install 1.9.3-p0
 
 source ~/.bashrc
-  rvm use 1.9.3 --default
+#  We'll do this later...
+#  rvm use 1.9.3 --default
 
 echo "Installing Rails to write and run web applications ..."
   gem install rails --no-rdoc --no-ri
