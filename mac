@@ -17,23 +17,8 @@ echo "Put Homebrew location earlier in PATH ..."
 export PATH='/usr/local/bin:$PATH'" >> ~/.zshrc
   source ~/.zshrc
 
-echo "Installing Postgres, a good open source relational database ..."
-  brew install postgres --no-python
-
-echo "Installing Redis, a good key-value database ..."
-  brew install redis
-
 echo "Installing ack, a good way to search through files ..."
   brew install ack
-
-echo "Installing tmux, a good way to save project state and switch between projects ..."
-  brew install tmux
-
-echo "Installing ImageMagick, good for cropping and re-sizing images ..."
-  brew install imagemagick
-
-echo "Installing QT, used by Capybara Webkit for headless Javascript integration testing ..."
-  brew install qt
 
 echo "Installing RVM (Ruby Version Manager) ..."
   curl -s https://rvm.beginrescueend.com/install/rvm -o rvm-installer ; chmod +x rvm-installer ; ./rvm-installer --version latest
@@ -42,5 +27,5 @@ echo "Installing RVM (Ruby Version Manager) ..."
 [[ -s '/Users/`whoami`/.rvm/scripts/rvm' ]] && source '/Users/`whoami`/.rvm/scripts/rvm'" >> ~/.zshrc
   source ~/.zshrc
 
-bash < <(curl -s https://raw.github.com/thoughtbot/laptop/master/ruby)
-bash < <(curl -s https://raw.github.com/thoughtbot/laptop/master/heroku)
+bash < <(curl -s https://raw.github.com/codeforamerica/cfa_laptop/master/ruby)
+bash < <(curl -s https://raw.github.com/codeforamerica/cfa_laptop/master/heroku)
