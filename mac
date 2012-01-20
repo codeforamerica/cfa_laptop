@@ -17,6 +17,9 @@ echo "Put Homebrew location earlier in PATH ..."
 export PATH='/usr/local/bin:$PATH'" >> ~/.zshrc
   source ~/.zshrc
 
+echo "Installing git, for version control ..."
+  brew install git
+
 echo "Installing ack, a good way to search through files ..."
   brew install ack
 
