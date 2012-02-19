@@ -9,6 +9,7 @@ Install
 -------
 
 First, install XCode from the Apple Mac Store.
+Second, install [GCC for OS X](https://github.com/kennethreitz/osx-gcc-installer). (requires OS X 10.6 or higher)
 
 Then, run this one-liner:
 
