@@ -20,6 +20,9 @@ export PATH='/usr/local/bin:$PATH'" >> ~/.bashrc
 echo "Installing git, for version control ..."
   brew install git
 
+echo "Installing Postgres, a good open source relational database ..."
+  brew install postgres --no-python
+
 echo "Installing ack, a good way to search through files ..."
   brew install ack
 
